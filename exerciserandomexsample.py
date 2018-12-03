@@ -3,13 +3,13 @@
 #@Time  :2018-12-01;21:40
 @author: aLuren
 
-#@FileName: randomexsample.py
+#@FileName: exerciserandomexsample.py
 #@Software: PyCharm
 Copyright(C)2018 SZ-MB-QTC
 主旨：random函数的使用
 '''
 
-from random import *
+import random
 x = random()
 a = seed(x)  #seed的用法？？
 h = randrange(0, 100, 3)

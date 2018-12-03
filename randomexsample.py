@@ -11,7 +11,7 @@ Copyright(C)2018 SZ-MB-QTC
 
 from random import *
 x = random()
-a = seed(x)
+a = seed(x)  #seed的用法？？
 h = randrange(0, 100, 3)
 print(a)
 print(x)

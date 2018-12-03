@@ -19,8 +19,15 @@ Copyright(C)2018 SZ-MB-QTC
 a = 'apple'
 b = 'orange'
 c = 'apple1234'
-print(a+b)
-print(a * 2)
+d = 'ABC123abc'
+print(a+b)  #合并a & b
+print(a * 2) #重复a字串2次
 print(a[2])
 print(b[-3])
+print(a[1:4:2])
+print('a' in a)
+print('b' not in b)
+print(len(a))
+print(max(c))
+print(max(d))
 

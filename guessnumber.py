@@ -43,6 +43,7 @@ for i in range(1, 5):
             print("Well Done!")
             break
 
+#如何在连续猜错5次以后，加入一句再见?
 
 
 

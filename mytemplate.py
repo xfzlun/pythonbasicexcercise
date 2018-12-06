@@ -8,7 +8,7 @@
 Copyright(C)2018 SZ-MB-QTC
 '''
 
-'''
+
 # _*_ coding: utf-8 _*_
 '''
 #@Time  :${YEAR}-${MONTH}-${DAY};${TIME}
@@ -17,5 +17,4 @@ Copyright(C)2018 SZ-MB-QTC
 #@FileName: ${NAME}.py
 #@Software: ${PRODUCT_NAME}
 Copyright(C)${YEAR} SZ-MB-QTC
-'''
 '''

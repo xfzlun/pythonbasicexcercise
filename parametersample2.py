@@ -34,4 +34,19 @@ word2('jack','hi','Nice to meet you','haha')
 #演示python中，字典传参的样式，必须要按照字典的定义形式，键 = 值 的形式来传递参数
 def word2(name='rose', greet='wo', *greeting,**name1):
     print(greeting, name + '!', name1)
-word2('jack','hi','Nice to meet you','haha',Name='fiona')
+word2('jack','hi','Nice to meet you','haha',Name='fiona',wo='cherry')
+
+#可变参数：如果已经有一个list或者tuple当作实参, 要调用可变参数怎么办？
+
+#方法1：透过索引的方式传入
+def word3(name, *greeting, **name1):
+    print(greeting, name + '!', name1)
+greet= ['hi','Nice to Meet you']
+word3('jack', greet[0], greet[1], Name = 'rose') #透过greet[0],greet[1]两个索引传入参数
+
+#方法2：在实参前面加'*'号
+def word4(name, *greeting, **name1):
+    print(greeting, name + '!', name1)
+greet= ['hi','Nice to Meet you']
+word4('jack', *greet, Name = 'rose') #'*greet'表示把greet这个list中所有元素作为可变参数传进去
+

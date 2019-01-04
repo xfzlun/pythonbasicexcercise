@@ -10,4 +10,5 @@ jump_head = 'gg'
 jump_tail = 'GG'
 write = ':w'
 quit = ':q'
+test
 

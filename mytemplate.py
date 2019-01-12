@@ -18,3 +18,22 @@ Copyright(C)2018 SZ-MB-QTC
 #@Software: ${PRODUCT_NAME}
 Copyright(C)${YEAR} SZ-MB-QTC
 '''
+
+
+'''
+这是VSCode的template
+'''
+'''
+"#!/usr/bin/python",
+		            "#_*_coding: utf-8 _*_",
+		            "'''",
+					"@uthor:aLuren",
+		            "Copyright(c)2018 SZ_MB-QTC",
+		            "FileName:${TM_FILENAME}",
+					"@DATE:${CURRENT_YEAR}-${CURRENT_MONTH_NAME_SHORT}-${CURRENT_DATE};${CURRENT_DAY_NAME_SHORT}",
+					"@TIME:${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}",
+					"'''",
+					"",
+		        ],
+		        "description": "A Python file template."    
+'''

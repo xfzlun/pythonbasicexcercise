@@ -22,9 +22,7 @@ Copyright(C)${YEAR} SZ-MB-QTC
 
 '''
 这是VSCode的template
-'''
-'''
-"#!/usr/bin/python",
+                    "#!/usr/bin/python",
 		            "#_*_coding: utf-8 _*_",
 		            "'''",
 					"@uthor:aLuren",

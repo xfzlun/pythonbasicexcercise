@@ -28,9 +28,6 @@ window = QWidget()
 window.resize(500,500)
 window.setWindowTitle('测试')
 
-#显示窗体
-window.show()
-sys.exit(app.exec_())
 #在窗体上添加一个标签
 #标签
 label = QLabel(window)

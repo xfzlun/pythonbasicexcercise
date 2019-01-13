@@ -4,7 +4,7 @@
 '''
 @uthor:Julylun
 Copyright(c)2019 SZ_MB-QTC
-FileName:PyQT5Entry.py
+FileName:PyQT5simplewindow.py
 @DATE:2019-Jan-13;Sun
 @TIME:15:43:23
 PyQT5 Tutorial

@@ -10,7 +10,6 @@ Copyright(C)2018 SZ-MB-QTC
 n! = n*(n-1)*(n-2)*....*2*1
 '''
 
-
 def finalresult(n):
     '''This function is to calculate and get value'''
     result = 1
@@ -19,3 +18,5 @@ def finalresult(n):
     return result
 a = finalresult(int(input('计算n阶乘结果，请输入一个数')))
 print(a)
+
+

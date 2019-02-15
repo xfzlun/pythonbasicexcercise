@@ -1,0 +1,49 @@
+Qt库是最强大的GUI库之一,PyQt5 的官方网站是
+www.riverbankcomputing.co.uk/news  PyQt5由 Riverbank Computing 开发.
+PyQt5 实现了一系列的 Python模块. 它包含超过 620个类,6000多个函数 和方法.它是一个跨平台的工具集,能够运行在全部主流操作系统上。包括 Unix,Windows,Mac OS.PyQt5 是双重认证的库， 开发者可以在 GPL 和 一个商业认证中做选择。
+
+PyQt5的类被分为多个模块，列举如下:
+QtCore
+QtGui
+QtWidgets
+QtMultimedia
+QtBluetooth
+QtNetwork
+QtPositioning
+Enginio
+QtWebSockets
+QtWebKit
+QtWebKitWidgets
+QtXml
+QtSvg
+QtSql
+QtTest
+QtCore 模块包含 核心非 GUI 功能.这个模块用于处理 时间，文件和路径，变量数据类型，流，URL,mime types，线程或进程。
+
+QtGui 包含 窗口类，时间处理机制，2D图形，基础绘图，字体和文本。
+
+QtWidgets模块包含的类，用于提供实现标准桌面ui 元素。
+
+QtMultimedia 包含 用于处理多媒体内容的类，控制相机 收音机功能的 API.
+
+QtBluetooth 模块的类，用于 扫描和链接周围的设备。
+
+QtNetwork 模块的类，用于网络编程。这些类使人能够更方便的编写 TCP/IP 和 UDP 的客户端,服务器程序。
+
+QtPositioning 包含的类，用于通过各种方法进行定位，如 卫星，Wi-Fi 或 文本文件。
+
+Enginio 模块 实现了 客户端访问 Qt 云服务.
+
+QtWebSockets 模块包含了一些类，实现 WebSocket 协议。
+
+QtWebKit 包含一些类，用于实现 WebKit2库基础上的 web浏览器。
+
+QtWebKitWidgets 包含一些类，用于在 Qt控件的基础上，实现 基于WebKit1库  的 web浏览器。
+
+QtXml 包含一些用于处理 XML文件的类。这个模块分别提供了 基于SAX 和 DOM APIs 的实现。
+
+QtSvg 模块提供了一些类，用于显示 SVG文件的内容。SVG(Scalable Vector Graphics) 是一种在XML中，用于描述二维 图关系 的语言。
+
+QtSql 模块提供了用于处理数据库的类。
+
+QtTest 包含给 QtPy5 应用程序开启单元测试的函数。

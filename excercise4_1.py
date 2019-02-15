@@ -18,5 +18,5 @@ def finalresult(n):
     return result
 a = finalresult(int(input('计算n阶乘结果，请输入一个数')))
 print(a)
-
+test
 
